@@ -56,7 +56,7 @@ gem 'rswag-ui'
 
 # Gemfile
 group :test do
-  gem 'factory_bot_rails', '~> 4.0'
+  gem 'factory_bot_rails', '~> 6.4'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'faker'
   gem 'database_cleaner'
