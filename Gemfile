@@ -51,6 +51,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0'
 end
 
+gem 'rswag-api'
+gem 'rswag-ui'
+
 # Gemfile
 group :test do
   gem 'factory_bot_rails', '~> 4.0'
