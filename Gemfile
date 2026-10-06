@@ -28,8 +28,8 @@ gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
-gem 'bcrypt'
-gem 'jwt'
+gem "bcrypt"
+gem "jwt"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -48,16 +48,16 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # Add rspec-rails to both the :development and :test groups
-  gem 'rspec-rails', '~> 6.0'
+  gem "rspec-rails", "~> 6.0"
 end
 
-gem 'rswag-api'
-gem 'rswag-ui'
+gem "rswag-api"
+gem "rswag-ui"
 
 # Gemfile
 group :test do
-  gem 'factory_bot_rails', '~> 4.0'
-  gem 'shoulda-matchers', '~> 5.0'
-  gem 'faker'
-  gem 'database_cleaner'
+  gem "factory_bot_rails", "~> 4.0"
+  gem "shoulda-matchers", "~> 5.0"
+  gem "faker"
+  gem "database_cleaner"
  end

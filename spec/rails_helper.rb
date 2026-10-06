@@ -49,9 +49,9 @@ end
 
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
-  config.fixture_paths = [Rails.root.join('spec/fixtures')]
+  config.fixture_paths = [ Rails.root.join('spec/fixtures') ]
 
-  config.include RequestSpecHelper  
+  config.include RequestSpecHelper
   config.include ControllerSpecHelper
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
@@ -100,5 +100,4 @@ RSpec.configure do |config|
   # Include the request_spec_helper.rb file explicitly for all request specs
   require Rails.root.join('spec/support/request_spec_helper.rb')
   config.include RequestSpecHelper, type: :request
-
 end

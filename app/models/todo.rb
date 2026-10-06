@@ -1,6 +1,6 @@
 class Todo < ApplicationRecord
-    # model association
+     # model association
      has_many :items, dependent: :destroy
-    # validations
+     # validations
      validates_presence_of :title, :created_by
-    end
+end
